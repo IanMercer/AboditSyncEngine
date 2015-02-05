@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboditSyncEngine", "AboditSyncEngine\AboditSyncEngine.csproj", "{1320FBC0-8FAC-4A15-B478-DFE19763526B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboditSyncEngineTests", "AboditSyncEngineTests\AboditSyncEngineTests.csproj", "{5E8966A7-133D-440C-BF01-67C2C7B3180E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1320FBC0-8FAC-4A15-B478-DFE19763526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1320FBC0-8FAC-4A15-B478-DFE19763526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1320FBC0-8FAC-4A15-B478-DFE19763526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1320FBC0-8FAC-4A15-B478-DFE19763526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8966A7-133D-440C-BF01-67C2C7B3180E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8966A7-133D-440C-BF01-67C2C7B3180E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8966A7-133D-440C-BF01-67C2C7B3180E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8966A7-133D-440C-BF01-67C2C7B3180E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
