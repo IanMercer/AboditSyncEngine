@@ -5,7 +5,7 @@ namespace AboditSyncEngine
     /// <summary>
     /// A Range of values of type T with a Start and a Finish
     /// </summary>
-    public class Range<T> where T:IComparable<T>
+    public struct Range<T> where T:IComparable<T>
     {
         public readonly T Start;
         public readonly T End;
@@ -32,6 +32,11 @@ namespace AboditSyncEngine
             T newStart = this.Start.CompareTo(other.Start) < 0 ? this.Start : other.Start;
             T newEnd = this.End.CompareTo(other.End) > 0 ? this.End : other.End;
             return new Range<T> (newStart, newEnd);
+        }
+
+        public override string ToString ()
+        {
+            return string.Format ("[Range {0}-{1}]", this.Start, this.End);
         }
     }
 }

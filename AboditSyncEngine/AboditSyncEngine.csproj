@@ -38,6 +38,7 @@
     <Compile Include="ISyncDevice.cs" />
     <Compile Include="ISyncView.cs" />
     <Compile Include="Range.cs" />
+    <Compile Include="RangeCollection.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

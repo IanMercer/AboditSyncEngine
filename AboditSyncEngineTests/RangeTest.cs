@@ -40,7 +40,6 @@ namespace AboditSyncEngineTests
             merged.Start.Should ().Be (1);
             merged.End.Should ().Be (100);
         }
-
     }
 }
 
